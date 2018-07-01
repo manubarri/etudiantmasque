@@ -1,0 +1,119 @@
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\M101DotNet.WebApp.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\M101DotNet.WebApp.pdb
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Bson.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Driver.Core.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Driver.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Owin.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Helpers.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Mvc.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Optimization.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Razor.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\WebGrease.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Bson.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Driver.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Helpers.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Mvc.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Razor.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Optimization.xml
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\obj\Debug\M101DotNet.WebApp.dll
+C:\Users\Manuel\Desktop\M101N\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\obj\Debug\M101DotNet.WebApp.pdb
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\M101DotNet.WebApp.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\M101DotNet.WebApp.pdb
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Bson.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Driver.Core.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Driver.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Owin.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Helpers.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Mvc.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Optimization.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Razor.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\WebGrease.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Bson.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\MongoDB.Driver.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Helpers.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Mvc.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Razor.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\bin\System.Web.Optimization.xml
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\obj\Debug\M101DotNet.WebApp.dll
+C:\Users\Manuel\Desktop\M101N\Semana 3\homework_3_2_making_your_blog_accept_posts\homework_3.2\3.2\src\M101DotNet.WebApp\obj\Debug\M101DotNet.WebApp.pdb
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\M101DotNet.WebApp.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\M101DotNet.WebApp.pdb
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Antlr3.Runtime.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Bson.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Driver.Core.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Driver.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Driver.GridFS.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Driver.Legacy.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Newtonsoft.Json.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Owin.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Helpers.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Mvc.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Optimization.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Razor.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.WebPages.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\WebGrease.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Antlr3.Runtime.pdb
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Bson.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Driver.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Driver.GridFS.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\MongoDB.Driver.Legacy.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\Newtonsoft.Json.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Helpers.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Mvc.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Razor.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.WebPages.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\bin\System.Web.Optimization.xml
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\obj\Debug\M101DotNet.WebApp.csprojResolveAssemblyReference.cache
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\obj\Debug\M101DotNet.WebApp.dll
+C:\Workspace\EtudiantMasque\EtudiantMasque\src\M101DotNet.WebApp\obj\Debug\M101DotNet.WebApp.pdb

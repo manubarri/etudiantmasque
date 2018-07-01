@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Articles";
+}
+<div class="container body-content">
+    <div class="content-noindex">
+        <h1 style="text-align:center;">@ViewBag.Title</h1>
+        <br />
+        <div class="row">
+            @foreach (var article in Model)
+            {
+                <div class="col-md-6">
+                    <h2>@article.Title</h2>
+                    <h4>@article.CreatedAtUtc.ToString()</h4>
+                    <p><a class="btn btn-default btn-sm" href="@Url.Action("Article", "Article", new { _id = article.Id })" style="float:left">LA SUITE &raquo;</a></p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

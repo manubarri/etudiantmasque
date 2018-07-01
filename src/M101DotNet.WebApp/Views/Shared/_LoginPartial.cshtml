@@ -1,0 +1,17 @@
+﻿@using System.Security.Claims;
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("Logout", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="@Url.Action("User", "Account", new { id = ((ClaimsIdentity)User.Identity).Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier).Value})">@User.Identity.Name</a></li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Déconnexion</a></li>
+        </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Login", "Login", "Account")</li>
+    </ul>
+}

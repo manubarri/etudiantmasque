@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="manubarri-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Workspace\\EtudiantMasque\\EtudiantMasque\\src\\M101DotNet\.WebApp\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Workspace\\EtudiantMasque\\EtudiantMasque\\src\\M101DotNet\.WebApp\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Blog-Web.config Connection String" description="Blog Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." value="mongodb://localhost:27017" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Workspace\\EtudiantMasque\\EtudiantMasque\\src\\M101DotNet\.WebApp\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Blog']/@connectionString" />
+  </parameter>
+</parameters>

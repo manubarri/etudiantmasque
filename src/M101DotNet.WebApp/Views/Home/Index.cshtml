@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Accueil";
+}
+<div class="container body-content">
+    <div class="content-noindex">
+        <h1 style="text-align:center;">Récent</h1>
+        <div class="row">
+            @foreach(var article in Model)
+            {
+                <div class="col-md-4">
+                    <h2 style="text-align:center;">@article.Title</h2>
+                    <p><a class="btn btn-default btn-sm" href="@Url.Action("Article", "Article", new { _id = article.Id })">LA SUITE &raquo;</a></p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

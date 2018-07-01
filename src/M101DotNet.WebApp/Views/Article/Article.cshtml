@@ -1,0 +1,148 @@
+﻿
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<div class="container body-content">
+    <div class="content-noindex">
+        <h1 style="text-align:center;">@ViewBag.Title</h1>
+        @if (Request.IsAuthenticated)
+        {
+            <a class="btn btn-primary btn-sm" href="#ModalEdit" data-toggle="modal" style="float:right;margin-left:10px;">Modifier &raquo;</a>
+            <a class="btn btn-danger btn-sm" href="#ModalDelete" data-toggle="modal" style="float:right">Suprimer &raquo;</a> 
+        }
+        <br />
+        <br />
+        @if(Model.Image != null && Model.Image.Length > 0)
+        {
+            <div style="background-image:url(data:image/jpeg;base64,@Model.Image); background-size: cover; background-repeat:no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; height:300px; width:100% ;position: relative; background-color: #222; overflow:hidden;">
+            </div>
+            <br />
+            <br />
+        }
+        <p>@Model.Author</p>
+        <p>@Model.CreatedAtUtc.ToString()</p>
+        @{
+            var myHtmlString = new HtmlString(Model.Content);
+            <p class="content-justify">@myHtmlString</p>
+        }
+        <br />
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    @foreach (var tag in Model.Tags)
+                    {
+                        <a href="@Url.Action("Articles", "Article", new { tag = tag })">@tag</a>
+                    }
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-2 col-md-2" style="text-align:center;float:right;">
+                <div class="fb-share-button" data-href="http://www.etudiantmasque.com" data-layout="button" data-lang="fr"></div>
+            </div>
+            <div class="col-xs-2 col-md-2" style="text-align:center;float:right;">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-lang="fr" data-size="large" data-url="http://www.etudiantmasque.com/Home/Post/@Model.Id">Tweeter</a>
+            </div>
+        </div>
+        <hr />
+        <h3>Commentaires</h3>
+        @foreach (var comment in Model.Comments)
+        {
+            <h5>@comment.Name &raquo; @comment.CreatedAtUtc</h5>
+            <p>@comment.Content</p>
+        }
+        <hr />
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>Nouveau Commentaire</h3>
+
+                @using (Html.BeginForm("NewComment", "Article", FormMethod.Post))
+                {
+                    <input type="hidden" name="ArticleId" value="@Model.Id" />
+                    <div class="editor-label">
+                        <label for="Nom">Nom</label>
+                    </div>
+                    <input type="text" class="form-control" name="Name" />
+                    <div class="editor-label">
+                        <label for="Content">Contenu</label>
+                    </div>
+                    <textarea name="Content" class="form-control"></textarea>
+                    <br />
+                    <div class="g-recaptcha" data-sitekey="6LdSKioTAAAAADRxJXdiznOKVtRIqC3mgGGz_egI"></div>
+                    <br />
+                    <p>
+                        <button type="submit" class="btn btn-default">Poster &raquo;</button>
+                    </p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+@if (Request.IsAuthenticated)
+{
+    <!-- MODAL EDIT -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="ModalEdit">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 style="text-align:center;">Editer Post</h2>
+                </div>
+                <div class="modal-body">
+                    @using (Html.BeginForm("EditArticle", "Article", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        <input type="hidden" for="Id" name="Id" value="@Model.Id" />
+                        <input type="hidden" for="ImageString" name="ImageString" class="form-control" id="ImageString" value="@Model.Image"/>
+                        <div class="editor-label">
+                            <label for="Image">Image</label>
+                        </div>
+                        <input type="file" for="Image" name="Image" class="form-control" value="@Model.Title"/>
+                        <div class="editor-label">
+                            <label for="Title">Title</label>
+                        </div>
+                        <input type="text" name="Title" class="form-control" value="@Model.Title"/>
+                        <div class="editor-label">
+                            <label for="Content">Contenu</label>
+                        </div>
+                        <textarea type="text" name="Content" class="form-control">@Model.Content.Replace("<br/>",System.Environment.NewLine)</textarea>
+                        <div class="editor-label">
+                            <label for="Tags">Tags</label>
+                        </div>
+                        <input type="text" name="Tags" class="form-control" value="@(Model.Tags != null ? string.Join(",", Model.Tags) : String.Empty)"/>
+                        <br />
+                        <br />
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-default">Confirmer &raquo;</button>
+                        </div>
+                    }
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <!-- MODAL DELETE -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="ModalDelete">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 style="text-align:center;">Suprimer Article</h2>
+                </div>
+                <div class="modal-body">
+                        @using (Html.BeginForm("DeleteArticle", "Article"))
+                        {
+                            <input type="hidden" for="Id" name="Id" value="@Model.Id" />
+                            <div class="editor-label">
+                                <label>Suprimer ce article?</label>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-danger">Confirmer &raquo;</button>
+                            </div>
+                        }   
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+}

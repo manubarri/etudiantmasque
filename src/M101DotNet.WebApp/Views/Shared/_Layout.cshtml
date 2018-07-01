@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+        <meta property="og:title" content="Etudiant Masqué" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.etudiantmasque.com" />
+        <meta property="og:image" content="http://www.etudiantmasque.com/Content/jumbotron_img.jpg" />
+        <meta property="og:site_name" content="EtudiantMasque" />
+        <meta property="og:description" content="Choniques d'un Etudiant Masque"/>
+        <meta property="fb:app_id" content="151597271902893" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etudiant Masqué</title>
+        @Styles.Render("~/Content/css")
+        @Styles.Render("~/Content/jquery.ui.all.css")
+        @Styles.Render("~/Content/jquery.ui.dialog.css")
+        @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!-- SCRIPT POUR RECAPTCHA -->
+    <script src='https://www.google.com/recaptcha/api.js?hl=fr' async defer></script>
+    <div id="fb-root"></div>
+    <script>
+        //SCRIPT POUR FB
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '151597271902893',
+                xfbml: true,
+                version: 'v2.5'
+            });
+        };
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=151597271902893";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        //SCRIPT POUR TWT
+        !function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id; js.src = p + '://platform.twitter.com/widgets.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, 'script', 'twitter-wjs');
+    </script>
+    <!-- CONTENU -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Etudiant Masqué", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Accueil", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Articles", "Articles", "Article")</li>
+                    <li>@Html.ActionLink("Contact", "NewMessage", "Message")</li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Nouvel Article", "NewArticle", "Article")</li>
+                        <li>@Html.ActionLink("Messages", "Messages", "Message")</li>
+                    }
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <div class="h1-wrapper">
+            <div class="bannerhome">
+                <h1 class="white">Chroniques d'un <br /> Etudiant Masqué</h1>
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+    <br />
+    <br />
+    <footer class="container footer" style="background-color:#e8e8e8;width:100%;position:absolute;">
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-3" style="text-align:center;">
+                <span class="text-muted">Copyright &copy; @DateTime.Now.Year - Etudiant Masqué</span>
+                <br />
+                <h6><span class="text-muted">Design <a class="text-muted" href="http://www.manuelbarrios.es" style="">Manuel BARRIOS</a><span class="text-muted"></h6>
+            </div>
+            <div class="col-md-3" style="color:#c5c5c5;">
+                <ul class="list-unstyled" style="text-align:center;">
+                    <li style="font:bold;"><span>@Html.ActionLink("Accueil", "Index", "Home")</span></li>
+                    <li style="font:bold;"><span>@Html.ActionLink("Articles", "Articles", "Article")</span></li>
+                    <li style="font:bold;"><span>@Html.ActionLink("Contact", "NewMessage", "Message")</span></li>
+                </ul>
+            </div>
+            @if (Request.IsAuthenticated)
+            {
+                <div class="col-md-3" style="color:#c5c5c5;">
+                    <ul class="list-unstyled" style="text-align:center;">
+                        <li style="font:bold;"><span>@Html.ActionLink("Nouvel Article", "NewArticle", "Article")</span></li>
+                        <li style="font:bold;"><span>@Html.ActionLink("Messages", "Messages", "Message")</span></li>
+                    </ul>
+                </div>
+            }
+            else
+            {
+                <div class="col-md-3">
+                    <ul class="list-unstyled" style="text-align:center;">
+                        <li><span>@Html.ActionLink("Login", "Login", "Account")</span></li>
+                    </ul>
+                </div>
+            }
+            <div class="col-md-3" style="float:right;align-content:center;">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="fb-like" data-href="https://www.facebook.com/etudiantmasque/?ref=ts&amp;fref=ts" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="twitter-follow-button" href="https://twitter.com/EtudiantMasque" data-show-screen-name="false">Follow</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@if (Request.IsAuthenticated)
+{
+    ViewBag.Title = "Messages";
+
+<div class="container body-content">
+    <div class="content-noindex">
+        <h1 style="text-align:center;">@ViewBag.Title</h1>
+        <br />
+        <div class="row">
+            @foreach (var message in Model)
+            {
+                <div class="col-md-4">
+                    <h2>@message.Name</h2>
+                    <p>@message.Content.Substring(0, Math.Min(message.Content.Length - 1, 200))</p>
+                    <p><a class="btn btn-default btn-sm" href="@Url.Action("Message", "Home", new { id = message.Id })">LA SUITE &raquo;</a></p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+}
